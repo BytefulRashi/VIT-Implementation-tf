@@ -3,7 +3,7 @@
 
 This repository contains an implementation of the Vision Transformer (ViT) model using TensorFlow and Keras. The Vision Transformer is a novel image classification model that utilizes transformer architectures, which have been highly successful in natural language processing tasks.
 
-![ViT Model](C:\Users\rashi\OneDrive\Desktop\skill\Machinelearning\ML_Project\VIT-With-ResNet50-in-Tensorflow\img.png)
+![ViT Model](VIT-With-ResNet50-in-Tensorflow\img.png)
 
 
 ## Table of Contents
