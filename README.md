@@ -1,15 +1,12 @@
-```markdown
 # Vision Transformer (ViT) Model
 
-This repository contains an implementation of the Vision Transformer (ViT) model using TensorFlow and Keras. The Vision Transformer is a novel image classification model that utilizes transformer architectures, which have been highly successful in natural language processing tasks.
+This repository contains an implementation of the Vision Transformer (ViT) model using TensorFlow and Keras. The Vision Transformer is a novel image classification model that leverages transformer architectures, which have been highly successful in natural language processing tasks.
 
 ## VIT Architecture
 
 | ![The block diagram of the Vision Transformer](img/vit-model.png) |
 | :--:
 | *The block diagram of the Vision Transformer along with the Transformer Encoder.* |
-
-
 
 ## Table of Contents
 - [Overview](#overview)
@@ -22,11 +19,11 @@ This repository contains an implementation of the Vision Transformer (ViT) model
 
 ## Overview
 
-The Vision Transformer (ViT) applies the transformer architecture, typically used for text, to image classification tasks. Instead of using convolutional neural networks (CNNs), ViT divides the image into patches, linearly embeds these patches, and processes them using transformer encoders.
+The Vision Transformer (ViT) applies the transformer architecture, typically used for text processing, to image classification tasks. Instead of utilizing convolutional neural networks (CNNs), ViT divides the image into patches, linearly embeds these patches, and processes them using transformer encoders.
 
 ## Installation
 
-To use this implementation, you'll need Python 3.x and the following packages:
+To use this implementation, ensure you have Python 3.x installed along with the following packages:
 
 - TensorFlow
 - NumPy
@@ -39,18 +36,18 @@ pip install tensorflow numpy
 
 ## Usage
 
-To use the ViT model, you can follow these steps:
+Clone this repository and navigate to the project directory:
 
-1. Clone this repository:
-    ```bash
-    https://github.com/BytefulRashi/VIT-Implementation-tf.git
-    cd vit-model
-    ```
+```bash
+git clone https://github.com/your_username/VIT-Model-Using-Tensorflow.git
+cd VIT-Model-Using-Tensorflow
+```
 
-2. Create and summarize the ViT model by running:
-    ```bash
-    python main.py
-    ```
+Run the `vit_model.py` script to create and summarize the ViT model:
+
+```bash
+python vit_model.py
+```
 
 ## Model Architecture
 
@@ -63,7 +60,7 @@ The Vision Transformer model consists of the following components:
 
 ## Configuration
 
-You can configure the model by modifying the parameters in the `config` dictionary:
+You can configure the model by modifying parameters in the `config` dictionary:
 
 - `num_layers`: Number of transformer encoder layers.
 - `hidden_dim`: Dimensionality of hidden layers.
